@@ -15,7 +15,7 @@ import com.example.contador.views.Maingui
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val viewModel: Maingui_viewModel = Maingui_viewModel()
+        val viewModel = Maingui_viewModel()
 
         enableEdgeToEdge()
         setContent {
@@ -28,3 +28,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+
+/* */
